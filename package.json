@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server --baseDir=public",
-    "dev": "lite-server --baseDir=public"
+    "dev": "lite-server --baseDir=public",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "globals": "^16.3.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
